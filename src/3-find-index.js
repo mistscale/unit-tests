@@ -1,3 +1,4 @@
 export const findIndex = (array, value) => {
-  return
+  const indexNumber = array.findIndex(fruit => fruit === value)
+  return indexNumber
 }
